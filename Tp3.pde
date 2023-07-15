@@ -1,4 +1,3 @@
-// LIBRERÍAS
 import processing.core.PApplet;
 import processing.core.PImage;
 
@@ -43,7 +42,7 @@ public class Tp3 extends PApplet {
   public void setup() {
     // INICIALIZACIÓN DE VARIABLES RAMA 0
     for (int i = 0; i < 11; i++) {
-      images[i] = loadImage("./data/rama0/imagenes/p" + (i+1) + ".jpg");
+      images[i] = loadImage("rama0/imagenes/p" + (i+1) + ".jpg");
       textPositionsX[i] = width / 2;
       textPositionsY[i] = height / 2;
       texts[i] = "Hola" + (i+1);
@@ -51,7 +50,7 @@ public class Tp3 extends PApplet {
 
     // INICIALIZACIÓN DE VARIABLES RAMA 1
     for (int i = 0; i < 4; i++) {
-      option3Images[i] = loadImage("./data/rama1/imagenes/p" + (i+3) + "r1.jpg");
+      option3Images[i] = loadImage("rama1/imagenes/p" + (i+3) + "r1.jpg");
       option3TextPositionsX[i] = width / 2;
       option3TextPositionsY[i] = height / 2;
       option3Texts[i] = "Hola3." + (i+1);
@@ -59,14 +58,14 @@ public class Tp3 extends PApplet {
 
     // INICIALIZACIÓN DE VARIABLES RAMA 2
     for (int i = 0; i < 8; i++) {
-      option3_3Images[i] = loadImage("./data/rama2/imagenes/p" + (i+5) + "r3.jpeg");
+      option3_3Images[i] = loadImage("rama2/imagenes/p" + (i+5) + "r3.jpeg");
       option3_3TextPositionsX[i] = width / 2;
       option3_3TextPositionsY[i] = height / 2;
       option3_3Texts[i] = "Hola3.3." + (i+1);
     }
 
-    imgGoBack = loadImage("./data/volver.jpg");
-    imgGo = loadImage("./data/go.png");
+    imgGoBack = loadImage("volver.jpg");
+    imgGo = loadImage("go.png");
   }
 
   public void draw() {
