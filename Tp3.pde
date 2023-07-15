@@ -17,7 +17,7 @@ public class Tp3 extends PApplet {
 
   // VARIABLES DE TAMAÑO DE TEXTO
   float[] textPositionsX = new float[11];
-  float[] textPositionsY = new float[11];
+  float[] textPositionsY = new float[11]
   float[] option3TextPositionsX = new float[4];
   float[] option3TextPositionsY = new float[4];
   float[] option3_3TextPositionsX = new float[8];
